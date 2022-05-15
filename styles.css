@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-color: #EFEAD8;
+}
+
+h1{
+    color: #5F7161;
+    margin: 3% auto 3% auto;
+}
+
+.row{
+    width: 50%;
+}
+
+.input-number{
+    width: 30%;
+}
+
+.input-group-text{
+    width: 20%;
+    text-align: center;
+}
+
+.btn{
+    margin: 1%;
+    background-color: #5F7161;
+    border: none;
+}
+
+.card{
+    width: 30%;
+    margin: 4% auto;
+}
+
+h4{
+    margin-top: 10%;
+    color: #5F7161;
+    font-size: 1rem;
+}
+
+@media (max-width:600px) {
+    body{
+        text-align: center;
+        background-color: #EFEAD8;
+    }
+    
+    h1{
+        color: #5F7161;
+        margin: 10% auto 10% auto;
+        font-size: 2rem;
+    }
+    
+    .row{
+        width: 85%;
+    }
+    
+    .input-number{
+        width: 60%;
+        margin: 5% auto 0 auto;
+    }
+    
+    .input-group-text{
+        width: 20%;
+        text-align: center;
+    }
+    
+    .btn{
+        margin: 5%;
+        background-color: #5F7161;
+        border: none;
+    }
+    
+    .card{
+        width: 70%;
+        margin: 4% auto;
+    }
+
+    h4{
+        margin-top: 50%;
+        color: #5F7161;
+        font-size: 1rem;
+    }
+}
