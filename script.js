@@ -2,6 +2,7 @@ document.getElementsByClassName("btn")[0].addEventListener("click", function () 
     let from = document.getElementsByClassName("from")[0].value;
     let to = document.getElementsByClassName("to")[0].value;
     let number = document.getElementsByClassName("form-control")[0].value;
+    let x = number;
     number = parseInt(number);
 
     if(from == "Please Select" || to == "Please Select")
@@ -29,13 +30,13 @@ document.getElementsByClassName("btn")[0].addEventListener("click", function () 
         octalToDecimal(number);
     }
     else if(from == 3 && to == 1){
-        hexaToBinary(number);
+        hexaToBinary(x);
     }
     else if(from == 3 && to == 2){
-        hexaToOctal(number);
+        hexaToOctal(x);
     }
     else if(from == 3 && to == 4){
-        hexaToDecimal(number);
+        hexaToDecimal(x);
     }
 })
 
