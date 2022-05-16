@@ -8,8 +8,12 @@ document.getElementsByClassName("btn")[0].addEventListener("click", function () 
     if (from == "Please Select" || to == "Please Select") {
         alert("Empty selection!")
     }
-    else if (from == to)
-        document.getElementsByClassName("card-text")[0].innerText = number;
+    else if (from == to){
+        document.getElementsByClassName("card-text")[0].innerText = x;
+        setTimeout(() => {
+            alert("Same Selection!");
+        }, 1000);
+    }
     else if (from == 1 && to == 2) {
         binaryToOctal(number);
     }
