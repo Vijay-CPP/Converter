@@ -3,7 +3,7 @@ document.getElementsByClassName("btn")[0].addEventListener("click", function () 
     let to = document.getElementsByClassName("to")[0].value;
     let number = document.getElementsByClassName("form-control")[0].value;
     let x = number;
-    number = parseInt(number);
+    number = parseFloat(number);
 
     if (from == "Please Select" || to == "Please Select") {
         alert("Empty selection!")
@@ -54,70 +54,70 @@ document.getElementsByClassName("btn")[0].addEventListener("click", function () 
 
 
 function binaryToOctal(number) {
-    let ans = parseInt(number, 2).toString(8);
+    let ans = parseFloat(number, 2).toString(8);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 function binaryToHexa(number) {
-    let ans = parseInt(number, 2).toString(16);
+    let ans = parseFloat(number, 2).toString(16);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function binaryToDecimal(number) {
-    let ans = parseInt(number, 2).toString(10);
+    let ans = parseFloat(number, 2).toString(10);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function octalToBinary(number) {
-    let ans = parseInt(number, 8).toString(2);
+    let ans = parseFloat(number, 8).toString(2);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function octalToHexa(number) {
-    let ans = parseInt(number, 8).toString(16);
+    let ans = parseFloat(number, 8).toString(16);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function octalToDecimal(number) {
-    let ans = parseInt(number, 8).toString(10);
+    let ans = parseFloat(number, 8).toString(10);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function hexaToBinary(number) {
-    let ans = parseInt(number, 16).toString(2);
+    let ans = parseFloat(number, 16).toString(2);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function hexaToOctal(number) {
-    let ans = parseInt(number, 16).toString(8);
+    let ans = parseFloat(number, 16).toString(8);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function hexaToDecimal(number) {
-    let ans = parseInt(number, 16).toString(10);
+    let ans = parseFloat(number, 16).toString(10);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 function decimalToBinary(number) {
-    let ans = parseInt(number, 10).toString(2);
+    let ans = parseFloat(number, 10).toString(2);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function decimalToOctal(number) {
-    let ans = parseInt(number, 10).toString(8);
+    let ans = parseFloat(number, 10).toString(8);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
 
 
 function decimalToHexa(number) {
-    let ans = parseInt(number, 10).toString(16);
+    let ans = parseFloat(number, 10).toString(16);
     document.getElementsByClassName("card-text")[0].innerText = ans;
 }
